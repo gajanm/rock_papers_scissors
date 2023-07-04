@@ -15,7 +15,7 @@ body{
     width: 300px;
     display:flex;
     justify-content: center;
-    flex-direction: column;
+    /*flex-direction: column;*/
     align-items: center;
     height: 50vh;
     width: 50vh;
@@ -73,7 +73,7 @@ body{
     
     border: 2px solid black;
     width: 100vh;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .update > .left{
@@ -82,6 +82,7 @@ body{
     width: 50vh;
     display:flex;
     flex-direction: column;
+    
 }
 
 .update > .left > .scoreBoard{
@@ -89,9 +90,15 @@ body{
     justify-content: space-evenly;
 }
 
+.update > .left > .score{
+    display:flex;
+    justify-content: space-evenly
+}
+
 .update > .right{
     display:flex;
     border: 2px solid green;
     align-items: center;
     justify-content: center;
+    width: 50vh;
 }
